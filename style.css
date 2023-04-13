@@ -1,0 +1,184 @@
+body {
+    background-color: #f4f7f9;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #3366FF;
+    background-color: #3366FF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: justify;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.btn-read-more {
+    background-color: #FFFFFF;
+    color: #3366FF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-read-more:hover {
+    background-color: #3366FF;
+    color: #FFFFFF;
+    border: 1px solid #3366FF;
+}
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    /* align vertical */
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    /* align vertical */
+}
+
+.col-6 {
+    text-align: left;
+    /* left align text */
+    margin-left: 20px;
+    /* adjust margin between image and text */
+}
+
+.btn-lihat {
+    background-color: #3366FF;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+
+}
+
+.btn-lihat:hover {
+    background-color: #ffffff;
+    color: #3366FF;
+    border: 1px solid #3366FF;
+}
+
+.col-md-12 {
+    text-align: center;
+    /* center align text */
+    margin: auto;
+    /* set margin auto to center element horizontally */
+}
+
+.wok-profile {
+    width: 100%;
+    /* set width to 100% to ensure same size for both image and text */
+    max-width: 485px;
+    border-radius: 15%;
+
+
+    /* set max width to image width */
+}
+
+.wok-profile:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+}
+
+#slider {
+    background-image: url('img/Frame\ 133\ \(3\).png');
+    background-size: 100%;
+
+    background-position: center;
+
+}
+
+
+.card {
+    max-height: 340px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #3366FF;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    padding: 1em 1em;
+}
+
+.row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+}
+
+.column {
+    flex-basis: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.column.about {
+    flex-basis: 25%;
+}
+
+.column.about img {
+    vertical-align: middle;
+}
+
+.column.link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column.link li {
+    margin-bottom: 5px;
+}
+
+.column.link a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.column.link a:hover {
+    text-decoration: underline;
+}
+
+.column.subscribe h3 {
+    margin-top: 0;
+}
+
+.column.subscribe img {
+    vertical-align: middle;
+}
