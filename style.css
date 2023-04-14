@@ -113,6 +113,81 @@ body {
     max-width: 100%;
 }
 
+#lapor {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+#lapor h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#lapor p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: justify;
+
+}
+
+#lapor img {
+    max-width: 100%;
+}
+
+#lapor .form {
+    background-color: white;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+#lapor h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+#lapor input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #333;
+}
+
+#lapor label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+
+#lapor button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #3366FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#lapor button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+#lapor #warning {
+    color: red;
+    margin-top: 20px;
+}
+
+
 footer {
     background-color: #3366FF;
     padding: 20px;
@@ -146,6 +221,7 @@ footer {
     padding: 10px;
     box-sizing: border-box;
     text-align: left;
+
 }
 
 .column.about {

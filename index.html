@@ -198,9 +198,28 @@
           <h1>Ayo lapor</h1>
           <p>Kami menyediakan fitur pelaporan untuk membantu sobat buddy kalau tahu temanmu menjadi korban
             bullying,langsung laporkan disini.</p>
-          <button class="btn-lihat">Buat Laporan</button>
+          <a class="nav-link" href="#form">
+            <button class="btn-lihat">Buat Laporan</button></a>
         </div>
       </div>
+      <div class="form">
+        <h1>Isi Form Disini</h1>
+        <form id="form">
+          <input type="text" id="name" placeholder="Masukkan Nama Anda" />
+          <input type="text" id="city" placeholder="Masukkan Asal Kota Anda" />
+          <input type="email" id="email" placeholder="Masukkan Email Anda" />
+          <input type="number" id="zip-code" placeholder="Masukkan Zipcode anda" />
+          <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+            dan telah sesuai</label>
+          <input type="checkbox" id="status" />
+          <button type="submit" id="submit-form" class="button button1">
+            Submit
+          </button>
+          <div id="warning"></div>
+        </form>
+      </div>
+    </div>
+
     </div>
   </section>
 
@@ -225,9 +244,8 @@
         <h3>Site Map</h3>
         <ul>
           <li><a href="#home">Beranda</a></li>
-          <li><a href="#team">Tentang Kami</a></li>
-          <li><a href="#blogs">Tentang Bullying</a></li>
-          <li><a href="#support">Artikel</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#artikel">Artikel</a></li>
           <li><a href="#lapor">Ayo Lapor</a></li>
         </ul>
       </div>
