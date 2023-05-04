@@ -1,5 +1,8 @@
 body {
     background-color: #f4f7f9;
+    position: relative;
+    height: 100vh;
+
 }
 
 .box {
@@ -78,6 +81,11 @@ body {
     /* set margin auto to center element horizontally */
 }
 
+.carousel-inner {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
 .wok-profile {
     width: 100%;
     /* set width to 100% to ensure same size for both image and text */
@@ -101,7 +109,6 @@ body {
 
 }
 
-
 .card {
     max-height: 340px;
     max-width: 100%;
@@ -120,10 +127,14 @@ body {
 
 }
 
-#lapor h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+
+
+#lapor h6 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #404040;
 }
+
 
 #lapor p {
     font-size: 24px;
@@ -136,15 +147,8 @@ body {
     max-width: 100%;
 }
 
-#lapor .form {
-    background-color: white;
-    padding: 40px;
-    margin-top: 60px;
-    border-radius: 30px;
-}
-
 #lapor h1 {
-    font-size: 32px;
+    font-size: 48px;
     margin-bottom: 40px;
 }
 
@@ -257,4 +261,124 @@ footer {
 
 .column.subscribe img {
     vertical-align: middle;
+}
+
+.profile-card {
+    width: 350px;
+
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    position: relative;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: inherit;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    border: 0;
+}
+
+.profile-card header {
+    display: block;
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 30px 0 20px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.profile-card header:before {
+    content: "";
+    position: absolute;
+    background: url('http://ali.shahab.pk/blur.php?img=http://ali.shahab.pk/ali-shahab.jpg&x=60') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+.profile-card header:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 1) 100%);
+}
+
+.profile-card header img {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 200px;
+    /*border: 1px solid rgba(255,255,255,.5);*/
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.profile-card header h1 {
+    font-weight: 200;
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #006BBA;
+    letter-spacing: -3px;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card header h2 {
+    font-size: 13px;
+    color: #BFBFBF;
+    letter-spacing: .5px;
+    margin: 0;
+    padding: 0;
 }
